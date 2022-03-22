@@ -70,7 +70,7 @@
     flex-direction: column  !important;
     flex: 1 0 auto !important;
     height: 90vh !important;
-    justify-content: space-evenly !important;
+    justify-content: space-between !important;
     overflow: hidden !important;
     font-size: 1.5vh !important;
     /* border: 2px solid green !important;  */
