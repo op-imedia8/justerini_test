@@ -831,6 +831,18 @@ body{
   margin-bottom: 3rem;
 }
 
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -999,6 +1011,16 @@ body{
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-\[0\.55rem\] {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
 }
 
 .pt-\[2vh\] {
