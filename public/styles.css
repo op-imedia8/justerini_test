@@ -823,24 +823,12 @@ body{
   margin-top: 1.25rem;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mb-\[5\%\] {
-  margin-bottom: 5%;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -875,36 +863,12 @@ body{
   height: 6%;
 }
 
-.h-\[40\%\] {
-  height: 40%;
-}
-
-.h-\[3\%\] {
-  height: 3%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-\[100vw\] {
-  height: 100vw;
-}
-
 .h-\[25\%\] {
   height: 25%;
 }
 
 .h-\[30\%\] {
   height: 30%;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
 }
 
 .w-\[15vh\] {
@@ -919,24 +883,20 @@ body{
   width: 100%;
 }
 
-.w-24 {
-  width: 6rem;
-}
-
-.w-60 {
-  width: 15rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
 .w-\[40vh\] {
   width: 40vh;
+}
+
+.w-\[30vh\] {
+  width: 30vh;
+}
+
+.w-\[20vh\] {
+  width: 20vh;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .max-w-md {
@@ -967,14 +927,6 @@ body{
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
 }
 
 .border {
@@ -1041,11 +993,6 @@ body{
   padding-right: 2.5rem;
 }
 
-.py-\[5\%\] {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1059,11 +1006,6 @@ body{
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-\[13\%\] {
-  padding-top: 13%;
-  padding-bottom: 13%;
 }
 
 .px-8 {
@@ -1095,42 +1037,6 @@ body{
   padding-left: 1rem;
 }
 
-.pt-\[13\%\] {
-  padding-top: 13%;
-}
-
-.pt-\[8\%\] {
-  padding-top: 8%;
-}
-
-.pt-\[10\%\] {
-  padding-top: 10%;
-}
-
-.pt-\[6\%\] {
-  padding-top: 6%;
-}
-
-.pt-\[25\%\] {
-  padding-top: 25%;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1141,6 +1047,10 @@ body{
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -1171,11 +1081,6 @@ body{
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1236,11 +1141,6 @@ body{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 @import "buttons.scss";
 
 .text-link {
@@ -1287,7 +1187,7 @@ body{
   /* display: flex !important; */
   /* flex: auto !important; */
   /* height: 100vh !important; */
-  height: 95vh !important;
+  /* height: 100vh !important; */
 }
 
 /* .owl-carousel  {
@@ -1300,8 +1200,8 @@ body{
   display: flex !important;
   flex-direction: column  !important;
   flex: 1 0 auto !important;
-  height: 80vh !important;
-  justify-content: space-between !important;
+  height: 90vh !important;
+  justify-content: space-evenly !important;
   overflow: hidden !important;
   font-size: 1.5vh !important;
   /* border: 2px solid green !important;  */
@@ -1331,12 +1231,6 @@ body{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
-@media (min-width: 768px) {
-  .md\:max-w-2xl {
-    max-width: 42rem;
-  }
 }
 
 
