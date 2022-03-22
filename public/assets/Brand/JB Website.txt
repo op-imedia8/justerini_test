@@ -1,0 +1,7 @@
+All brand guidelines have been observed, however the website has used closest match in some cases.
+
+* Titles
+	* EB Garamond (Google Font)
+
+* Body Copy
+	* Lato (Google Font)
