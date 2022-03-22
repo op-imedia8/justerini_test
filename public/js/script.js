@@ -6,7 +6,7 @@ $('.owl-carousel').owlCarousel({
     //   autoHeight:true,
     nav:true,
     navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-    animateOut: 'fadeOut',
+    // animateOut: 'fadeOut',
     dots:false, 
     responsive:{
         0:{

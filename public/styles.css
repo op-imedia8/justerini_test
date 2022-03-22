@@ -887,18 +887,6 @@ body{
   width: 40vh;
 }
 
-.w-\[30vh\] {
-  width: 30vh;
-}
-
-.w-\[20vh\] {
-  width: 20vh;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
